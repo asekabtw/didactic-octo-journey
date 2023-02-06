@@ -20,8 +20,8 @@ $subtitles: hsl(227, 10%, 46%);
   align-items: center;
   justify-content: center;
   background-color: $main-bg;
-  background-image: url(/images/bg-pattern-top.svg),
-    url(/images/bg-pattern-bottom.svg);
+  background-image: url(../images/bg-pattern-top.svg),
+    url(../images/bg-pattern-bottom.svg);
   background-repeat: no-repeat;
   background-position: right 50vw bottom 38vh, left 50vw top 48vh;
 
@@ -38,7 +38,6 @@ $subtitles: hsl(227, 10%, 46%);
   &__pattern {
     & img {
       display: block;
-      width: 100%;
       height: 100%;
     }
   }
